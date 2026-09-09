@@ -1,0 +1,106 @@
+{
+  "document_loading": "HTML injected into blank browser documents",
+  "tests": [
+    {
+      "test": "Campaign initially locks later sectors",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Launch button starts a real campaign simulation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Keyboard input rotates the actual paddle",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Space pauses and resumes the previous phase",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Completing a sector awards stars, XP and the next unlock",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Next-sector action starts the next campaign level",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "3D mode uses XYZ state and manual Z controls",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "4D mode uses XYZW state and manual W controls",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Four-player local mode creates four human paddles",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "All four local keyboard control sets move independently",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Survival has one pilot and one life",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Opening settings pauses local gameplay",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Layout and room dialog fit a 320px viewport",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Layout and room dialog fit a 390px viewport",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Layout and room dialog fit a 768px viewport",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Layout and room dialog fit a 1366px viewport",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Synthetic multitouch assigns two distinct paddle targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Unavailable ICE routes show an actionable error and release the seat",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "Real four-browser WebRTC connection",
+      "status": "SKIP",
+      "detail": "No connection routes were exposed by this browser. WebRTC may be blocked by a browser policy, VPN or network. Open the game in an unrestricted browser, check network settings, and create a fresh invite."
+    },
+    {
+      "test": "No uncaught JavaScript exceptions during browser smoke tests",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "uncaught_js_errors": []
+}

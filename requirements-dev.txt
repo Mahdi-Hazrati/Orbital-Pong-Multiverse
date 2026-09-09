@@ -1,0 +1,2 @@
+# Development-only; the game has zero runtime dependencies.
+playwright==1.57.0

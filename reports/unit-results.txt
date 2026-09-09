@@ -1,0 +1,274 @@
+TAP version 13
+# Subtest: 2D spherical coordinates are unit length and round-trip
+ok 1 - 2D spherical coordinates are unit length and round-trip
+  ---
+  duration_ms: 4.341712
+  type: 'test'
+  ...
+# Subtest: 2D tangent basis is orthonormal
+ok 2 - 2D tangent basis is orthonormal
+  ---
+  duration_ms: 0.569554
+  type: 'test'
+  ...
+# Subtest: 2D analytic impact lands on the boundary
+ok 3 - 2D analytic impact lands on the boundary
+  ---
+  duration_ms: 1.40407
+  type: 'test'
+  ...
+# Subtest: 2D continuous collision catches a fast ball
+ok 4 - 2D continuous collision catches a fast ball
+  ---
+  duration_ms: 0.893903
+  type: 'test'
+  ...
+# Subtest: 2D an uncovered boundary loses a life
+ok 5 - 2D an uncovered boundary loses a life
+  ---
+  duration_ms: 0.789614
+  type: 'test'
+  ...
+# Subtest: 2D long simulations keep all numeric state finite
+ok 6 - 2D long simulations keep all numeric state finite
+  ---
+  duration_ms: 98.518217
+  type: 'test'
+  ...
+# Subtest: 3D spherical coordinates are unit length and round-trip
+ok 7 - 3D spherical coordinates are unit length and round-trip
+  ---
+  duration_ms: 0.758336
+  type: 'test'
+  ...
+# Subtest: 3D tangent basis is orthonormal
+ok 8 - 3D tangent basis is orthonormal
+  ---
+  duration_ms: 0.20686
+  type: 'test'
+  ...
+# Subtest: 3D analytic impact lands on the boundary
+ok 9 - 3D analytic impact lands on the boundary
+  ---
+  duration_ms: 0.626747
+  type: 'test'
+  ...
+# Subtest: 3D continuous collision catches a fast ball
+ok 10 - 3D continuous collision catches a fast ball
+  ---
+  duration_ms: 0.872175
+  type: 'test'
+  ...
+# Subtest: 3D an uncovered boundary loses a life
+ok 11 - 3D an uncovered boundary loses a life
+  ---
+  duration_ms: 0.401027
+  type: 'test'
+  ...
+# Subtest: 3D long simulations keep all numeric state finite
+ok 12 - 3D long simulations keep all numeric state finite
+  ---
+  duration_ms: 105.586322
+  type: 'test'
+  ...
+# Subtest: 4D spherical coordinates are unit length and round-trip
+ok 13 - 4D spherical coordinates are unit length and round-trip
+  ---
+  duration_ms: 0.891059
+  type: 'test'
+  ...
+# Subtest: 4D tangent basis is orthonormal
+ok 14 - 4D tangent basis is orthonormal
+  ---
+  duration_ms: 0.143657
+  type: 'test'
+  ...
+# Subtest: 4D analytic impact lands on the boundary
+ok 15 - 4D analytic impact lands on the boundary
+  ---
+  duration_ms: 0.700456
+  type: 'test'
+  ...
+# Subtest: 4D continuous collision catches a fast ball
+ok 16 - 4D continuous collision catches a fast ball
+  ---
+  duration_ms: 0.208244
+  type: 'test'
+  ...
+# Subtest: 4D an uncovered boundary loses a life
+ok 17 - 4D an uncovered boundary loses a life
+  ---
+  duration_ms: 0.153711
+  type: 'test'
+  ...
+# Subtest: 4D long simulations keep all numeric state finite
+ok 18 - 4D long simulations keep all numeric state finite
+  ---
+  duration_ms: 159.285939
+  type: 'test'
+  ...
+# Subtest: 2D paddles wrap through the full circle in both directions
+ok 19 - 2D paddles wrap through the full circle in both directions
+  ---
+  duration_ms: 1.778715
+  type: 'test'
+  ...
+# Subtest: 3D collision genuinely depends on Z
+ok 20 - 3D collision genuinely depends on Z
+  ---
+  duration_ms: 0.234774
+  type: 'test'
+  ...
+# Subtest: 4D collision genuinely depends on W
+ok 21 - 4D collision genuinely depends on W
+  ---
+  duration_ms: 0.245894
+  type: 'test'
+  ...
+# Subtest: 4D cap catches the W pole when correctly aligned
+ok 22 - 4D cap catches the W pole when correctly aligned
+  ---
+  duration_ms: 0.184229
+  type: 'test'
+  ...
+# Subtest: 4D deflection introduces nonzero W from an equatorial return
+ok 23 - 4D deflection introduces nonzero W from an equatorial return
+  ---
+  duration_ms: 0.345539
+  type: 'test'
+  ...
+# Subtest: campaign return target completes a sector and awards stars
+ok 24 - campaign return target completes a sector and awards stars
+  ---
+  duration_ms: 0.316434
+  type: 'test'
+  ...
+# Subtest: campaign total returns survive a miss; rally resets
+ok 25 - campaign total returns survive a miss; rally resets
+  ---
+  duration_ms: 0.989946
+  type: 'test'
+  ...
+# Subtest: four-player turn order skips eliminated pilots
+ok 26 - four-player turn order skips eliminated pilots
+  ---
+  duration_ms: 0.210718
+  type: 'test'
+  ...
+# Subtest: only the active paddle can return the ball
+ok 27 - only the active paddle can return the ball
+  ---
+  duration_ms: 0.209542
+  type: 'test'
+  ...
+# Subtest: last living pilot wins multiplayer
+ok 28 - last living pilot wins multiplayer
+  ---
+  duration_ms: 0.507161
+  type: 'test'
+  ...
+# Subtest: disconnecting active player pauses or ends the match safely
+ok 29 - disconnecting active player pauses or ends the match safely
+  ---
+  duration_ms: 0.231406
+  type: 'test'
+  ...
+# Subtest: snapshots are detached copies
+ok 30 - snapshots are detached copies
+  ---
+  duration_ms: 0.746946
+  type: 'test'
+  ...
+# Subtest: pause freezes the simulation and resume restores its phase
+ok 31 - pause freezes the simulation and resume restores its phase
+  ---
+  duration_ms: 0.191042
+  type: 'test'
+  ...
+# Subtest: all twelve campaign sectors have valid dimensions and goals
+ok 32 - all twelve campaign sectors have valid dimensions and goals
+  ---
+  duration_ms: 0.152794
+  type: 'test'
+  ...
+# Subtest: connection codes round-trip Unicode callsigns
+ok 33 - connection codes round-trip Unicode callsigns
+  ---
+  duration_ms: 1.084907
+  type: 'test'
+  ...
+# Subtest: offer and reply codes cannot be interchanged
+ok 34 - offer and reply codes cannot be interchanged
+  ---
+  duration_ms: 1.082752
+  type: 'test'
+  ...
+# Subtest: expired, oversized and damaged codes are rejected
+ok 35 - expired, oversized and damaged codes are rejected
+  ---
+  duration_ms: 0.525737
+  type: 'test'
+  ...
+# Subtest: snapshot validation rejects malformed dimensional vectors
+ok 36 - snapshot validation rejects malformed dimensional vectors
+  ---
+  duration_ms: 0.514862
+  type: 'test'
+  ...
+# Subtest: protocol: all three guests must ready before a four-player start
+ok 37 - protocol: all three guests must ready before a four-player start
+  ---
+  duration_ms: 5.679915
+  type: 'test'
+  ...
+# Subtest: protocol: host starts one consistent 4D game for all four peers
+ok 38 - protocol: host starts one consistent 4D game for all four peers
+  ---
+  duration_ms: 12.949278
+  type: 'test'
+  ...
+# Subtest: protocol: remote input is clamped, scoped to its seat, and sequence-checked
+ok 39 - protocol: remote input is clamped, scoped to its seat, and sequence-checked
+  ---
+  duration_ms: 2.890309
+  type: 'test'
+  ...
+# Subtest: protocol: stale movement expires without moving the peer forever
+ok 40 - protocol: stale movement expires without moving the peer forever
+  ---
+  duration_ms: 1.536076
+  type: 'test'
+  ...
+# Subtest: protocol: snapshots synchronize and out-of-order packets are ignored
+ok 41 - protocol: snapshots synchronize and out-of-order packets are ignored
+  ---
+  duration_ms: 1.159387
+  type: 'test'
+  ...
+# Subtest: protocol: old-match packets cannot corrupt a rematch
+ok 42 - protocol: old-match packets cannot corrupt a rematch
+  ---
+  duration_ms: 1.012516
+  type: 'test'
+  ...
+# Subtest: protocol: lobby, chat, and host-controlled pause synchronize
+ok 43 - protocol: lobby, chat, and host-controlled pause synchronize
+  ---
+  duration_ms: 7.101965
+  type: 'test'
+  ...
+# Subtest: protocol: invalid packets cannot throw or inject host game state
+ok 44 - protocol: invalid packets cannot throw or inject host game state
+  ---
+  duration_ms: 0.755843
+  type: 'test'
+  ...
+1..44
+# tests 44
+# suites 0
+# pass 44
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 664.907833
