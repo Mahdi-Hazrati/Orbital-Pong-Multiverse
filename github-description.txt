@@ -1,1 +1,0 @@
-A neon 360-degree Pong multiverse with real 2D/3D/4D physics, 12 campaign levels, local multiplayer, and manual-signaling WebRTC rooms. Vanilla JavaScript, one standalone HTML file, no game backend.
